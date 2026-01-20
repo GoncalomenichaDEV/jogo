@@ -32,7 +32,7 @@ print("A CORRIDA VAI COMECAR !!")
 time.sleep(1)
 
 while not vencedor:
-    print("boa sorte") 
+    print("\n" * 5) 
 
     for p in corredores:
         p.avancar()
